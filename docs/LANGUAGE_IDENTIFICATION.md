@@ -1,4 +1,7 @@
 # Language Identification
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![](https://jitpack.io/v/reverieinc/Reverie-Language-API-SDK-Android.svg)](https://jitpack.io/#reverieinc/Reverie-Language-API-SDK-Android)
+
 This Api is used to detect or identify the language of the source content
 
 # Supporting Language
@@ -29,11 +32,10 @@ Make sure that you have added the latest dependency in the module level `build.g
 
 ```
 dependencies {
-    implementation ''
+         implementation 'com.github.reverieinc:Reverie-Language-API-SDK-Android:1.0'
 }
 ```
 
-Refer to latest dependency: [Home](http://home)
 
 Add the following code bases in module level `build.gradle`, so the library can easily access the credentials.
 ```

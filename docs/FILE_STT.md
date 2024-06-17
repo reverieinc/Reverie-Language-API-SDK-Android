@@ -1,4 +1,7 @@
 # Speech to Text | FileSTT
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![](https://jitpack.io/v/reverieinc/Reverie-Language-API-SDK-Android.svg)](https://jitpack.io/#reverieinc/Reverie-Language-API-SDK-Android)
+
 The Speech-to-Text accurately converts speech into text using an API powered by Reverie's AI technology. The solution will transcribe the speech in real-time of various Indian languages and audio formats.
 The solution is a fully managed and continually trained solution, which leverages machine learning to combine knowledge of grammar, language structure, and the composition of audio and voice signals to accurately transcribe the speech.
 > **Note: On the basis of the selected [domain](#supporting-domain) the result will vary**
@@ -54,7 +57,7 @@ Make sure that you have added the latest dependency in the module level `build.g
 
 ```
 dependencies {
-    implementation ''
+         implementation 'com.github.reverieinc:Reverie-Language-API-SDK-Android:1.0'
 }
 ```
 
@@ -70,7 +73,6 @@ Please make sure the following requirements are met for the audio before uploadi
 
 > To explore more about other audio formats please refer to [Supporting Audio Formats](https://docs.reverieinc.com/speech-to-text-file-api/supporting-audio-format)
 
-Refer to latest dependency: [Home](http://home)
 
 Add the following code bases in module level `build.gradle`, so the library can easily access the credentials. 
 ```

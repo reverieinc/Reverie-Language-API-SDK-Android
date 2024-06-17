@@ -1,4 +1,7 @@
 # Transliteration
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![](https://jitpack.io/v/reverieinc/Reverie-Language-API-SDK-Android.svg)](https://jitpack.io/#reverieinc/Reverie-Language-API-SDK-Android)
+
 Transliteration is the process of converting texts from one script to another based on phonetic similarity. Here, the text is displayed in alphabets of different languages, but the pronunciation, grammar, and sense of the original version remain intact in these new characters. 
 Transliteration is involved while converting the names, addresses, titles, and more into Indian languages as localization is important without changing meaning. For a better understanding, refer to the below examples:
 > **Note: On the basis of the selected [domain](#supporting-domains) the result will vary**
@@ -65,11 +68,10 @@ Make sure that you have added the latest dependency in the module level `build.g
 
 ```
 dependencies {
-    implementation ''
+         implementation 'com.github.reverieinc:Reverie-Language-API-SDK-Android:1.0'
 }
 ```
 
-> Refer to latest dependency: [Home](http://home)
 
 Add the following code bases in module level `build.gradle`, so the library can easily access the credentials. 
 ```

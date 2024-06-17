@@ -1,4 +1,7 @@
 # Translation
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![](https://jitpack.io/v/reverieinc/Reverie-Language-API-SDK-Android.svg)](https://jitpack.io/#reverieinc/Reverie-Language-API-SDK-Android)
+
 Content Localization is the process of adapting the original content to a new target audience. The localization process requires more effort and skill than translation (e.g., changing measurement systems, adding or changing words to help a local reader). The translated text has to be simple, easy to understand, and capture subtle nuances and cultural references.
 **Note: On the basis of the selected [domain](#supporting-domains) the result will vary**
 The example below demonstrates how the Localization SDK  will analyze the content's domain & context and localize it:
@@ -50,11 +53,10 @@ Make sure that you have added the latest dependency in the module level `build.g
 
 ```
 dependencies {
-    implementation ''
+          implementation 'com.github.reverieinc:Reverie-Language-API-SDK-Android:1.0'
 }
 ```
 
-Refer to latest dependency: [Home](http://home)
 
 Add the following code bases in module level `build.gradle`, so the library can easily access the credentials. 
 ```

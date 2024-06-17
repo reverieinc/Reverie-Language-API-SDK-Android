@@ -1,4 +1,7 @@
 # Text to Speech
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![](https://jitpack.io/v/reverieinc/Reverie-Language-API-SDK-Android.svg)](https://jitpack.io/#reverieinc/Reverie-Language-API-SDK-Android)
+
 Reverie's TTS (Text-to-Speech) is a solution that turns text into lifelike speech, allowing you to create applications that talk in multiple Indic languages and build comprehensive speech-enabled products. 
 The Reverie TTS service will offer neural Text-to-Speech voices, delivering innovative enhancements in speech quality through state-of-the-art machine learning approaches. You can select the ideal voice and tone to build the natural and human-like speech-enabled applications in the market to enable the interactive customer experience.
 **Note: On the basis of the selected [domain](#supporting-domains) the result will vary**
@@ -53,11 +56,10 @@ Make sure that you have added the latest dependency in the module level `build.g
 
 ```
 dependencies {
-    implementation ''
+         implementation 'com.github.reverieinc:Reverie-Language-API-SDK-Android:1.0'
 }
 ```
 
-Refer to latest dependency: [Home](http://home)
 
 Add the following code bases in module level `build.gradle`, so the library can easily access the credentials. 
 ```
