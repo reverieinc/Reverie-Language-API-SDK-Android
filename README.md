@@ -1,4 +1,7 @@
 # Reverie Language API SDK for Android
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![](https://jitpack.io/v/reverieinc/Reverie-Language-API-SDK-Android.svg)](https://jitpack.io/#reverieinc/Reverie-Language-API-SDK-Android)
+
 ## Overview
 Welcome to the Reverie Language API: Android SDK documentation. This SDK provides a comprehensive suite of tools for integrating advanced language processing capabilities into your Android applications. Whether you need transliteration, translation, text-to-speech (TTS), or speech-to-text (STT) functionalities, this SDK has you covered. Additionally, the SDK offers robust language identification features to detect the language of a given text input.
 ## Purpose
@@ -34,3 +37,12 @@ Below is the list of API services supported by this SDK:
 
 
 Please go through them for detailed documentation and integration guides.
+
+
+
+License
+-------
+All Rights Reserved. Copyright 2024. Reverie Language Technologies Limited.(https://reverieinc.com/)
+
+Reverie Voice Input SDK can be used according to the [Apache License, Version 2.0](LICENSE).
+        
