@@ -44,5 +44,5 @@ License
 -------
 All Rights Reserved. Copyright 2024. Reverie Language Technologies Limited.(https://reverieinc.com/)
 
-Reverie Voice Input SDK can be used according to the [Apache License, Version 2.0](LICENSE).
+Reverie Language API SDK can be used according to the [Apache License, Version 2.0](LICENSE).
         
