@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".BatchSttActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+
+    >
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1">
+
+        <ImageView
+            android:id="@+id/reverie_logo"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/reverie_logo" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.08"
+        android:background="#F2FCEF"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="15dp"
+            android:text="Speech to Text"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.82"
+        android:background="@color/white">
+
+        <LinearLayout
+
+            android:id="@+id/linear_layoutLanguageSelection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+
+            <Spinner
+                android:id="@+id/sourceSpinner"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_weight=".5"
+                android:background="@drawable/background_spinner_white_bg"
+                android:entries="@array/Languages"
+                android:padding="10dp" />
+
+            <ProgressBar
+                android:id="@+id/progressBarUpload"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="150dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/output_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Output Text"
+            android:layout_centerInParent="true"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/file_upload"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="horizontal"
+            app:cardCornerRadius="2dp">
+
+            <LinearLayout
+                android:id="@+id/upload_file"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/filename"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="0.8"
+                    android:padding="3dp"
+                    android:text="File Name"
+                    android:textAlignment="textStart"
+                    android:textSize="20sp" />
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.18"
+                    android:src="@drawable/baseline_arrow_upward_24"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/see_transcript_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_above="@id/file_upload"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="8dp"
+            android:text="See Transcript"
+            android:textAllCaps="false"/>
+
+
+        <Button
+            android:id="@+id/checkStatus"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/file_upload"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="250dp"
+            android:text="Check Status" />
+
+        <LinearLayout
+            android:id="@+id/startRecordingLL"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="30dp"
+            android:layout_toRightOf="@id/file_upload"
+            android:background="#FF0000"
+            android:gravity="center_horizontal"
+            android:visibility="visible">
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="50dp"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/transcribeTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:paddingTop="10dp"
+                android:paddingEnd="10dp"
+
+                android:text="Transcribe"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Reverie APIs</string>
+    <string-array name="Languages">
+        <item>HINDI</item>
+        <item>ENGLISH</item>
+        <item>ASSAMESE</item>
+        <item> BENGALI</item>
+        <item>GUJARATI</item>
+        <item>KANNADA</item>
+        <item>MALAYALAM</item>
+        <item>MARATHI</item>
+        <item> ODIA</item>
+        <item>PUNJABI</item>
+        <item>TAMIL</item>
+        <item>TELUGU</item>
+
+
+    </string-array>
+
+
+    <string-array name="domain">
+        <item>DEFAULT</item>
+        <item>NAMES</item>
+        <item>ONLY_ENGLISH</item>
+        <item>CRICKETERS</item>
+        <item>BANKING</item>
+        <item>BRANDS</item>
+        <item>ADDRESSES</item>
+        <item>NUMBER_IN_WORDS</item>
+        <item>FOOD</item>
+        <item>MEDIA_AND_ENTERTAINMENT</item>
+        <item>GROCERY</item>
+        <item>HEALTHCARE</item>
+        <item>ENTERPRISE</item>
+
+    </string-array>
+
+    <string-array name="Speakers">
+        <item>English Female</item>
+        <item>Hindi Female</item>
+        <item>Assamese Female</item>
+        <item>Bengali Female</item>
+        <item>Gujarati Female</item>
+        <item>Kannada Female</item>
+        <item>Malayalam Female</item>
+        <item>Marathi Female</item>
+        <item>Odia Female</item>
+        <item>Punjabi Female</item>
+        <item>Tamil Female</item>
+        <item>Telugu Female</item>
+        <item>Hindi Male</item>
+        <item>Assamese Male</item>
+        <item>Bengali Male</item>
+        <item>Gujarati Male</item>
+        <item>Kannada Male</item>
+        <item>Malayalam Male</item>
+        <item>Marathi Male</item>
+        <item>Odia Male</item>
+        <item>Punjabi Male</item>
+        <item>Tamil Male</item>
+        <item>Telugu Male</item>
+        <item></item>
+    </string-array>
+    <string name="tts_layoyt">tts_Layout</string>
+</resources>

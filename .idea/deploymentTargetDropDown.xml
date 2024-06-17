@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="deploymentTargetDropDown">
+    <value>
+      <entry key="Reverie APIs.Reverie_APIs.app">
+        <State>
+          <targetSelectedWithDropDown>
+            <Target>
+              <type value="QUICK_BOOT_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="VIRTUAL_DEVICE_PATH" />
+                  <value value="$USER_HOME$/.android/avd/Android_14.avd" />
+                </Key>
+              </deviceKey>
+            </Target>
+          </targetSelectedWithDropDown>
+          <timeTargetWasSelectedWithDropDown value="2024-04-03T08:49:27.074296180Z" />
+        </State>
+      </entry>
+      <entry key="app">
+        <State />
+      </entry>
+      <entry key="app.main">
+        <State />
+      </entry>
+      <entry key="app.unitTest">
+        <State />
+      </entry>
+      <entry key="incorrectCreds()">
+        <State />
+      </entry>
+      <entry key="invalidCreds()">
+        <State />
+      </entry>
+      <entry key="invalidCreds() (1)">
+        <State />
+      </entry>
+      <entry key="wrongFormat()">
+        <State />
+      </entry>
+      <entry key="wrongFormat() (1)">
+        <State />
+      </entry>
+    </value>
+  </component>
+</project>
