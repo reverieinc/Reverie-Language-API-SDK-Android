@@ -18,6 +18,23 @@ Before you begin, ensure that you have the following prerequisites in place:
 
 With these prerequisites, you are ready to start exploring the powerful features of the Rev-API, Android SDK. The following sections will guide you through each component in detail, providing everything you need to integrate and use these language processing capabilities in your applications.
 
+## Integrate the SDK in your application.
+
+Add Reverie's authorized API key and APP-ID in the `local.properties` file.
+```
+API-KEY=VALID-API-KEY
+APP-ID=VALID-APP-ID
+```
+
+Make sure that you have added the latest dependency in the module level `build.gradle` file.
+
+```
+dependencies {
+         implementation 'com.github.reverieinc:Reverie-Language-API-SDK-Android:1.0'
+}
+```
+
+
 ## Supported Services
 Below is the list of API services supported by this SDK:
 
