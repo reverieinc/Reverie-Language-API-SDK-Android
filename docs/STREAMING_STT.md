@@ -46,21 +46,9 @@ The universe in which the Streaming STT API is used for transcribing the speech.
 
 To understand the `Domains` better please refer to [Supporting Domains](https://docs.reverieinc.com/reference/speech-to-text-streaming-api#supporting-domains)
 
-### Integrate the SDK in your application.
+## Integrate the SDK in your application.
 
-Add Reverie's authorized API key and APP-ID in the `local.properties` file.
-```
-API-KEY=VALID-API-KEY
-APP-ID=VALID-APP-ID
-```
-
-Make sure that you have added the latest dependency in the module level `build.gradle` file.
-
-```
-dependencies {
-         implementation 'com.github.reverieinc:Reverie-Language-API-SDK-Android:1.0'
-}
-```
+[Refer this document ](https://github.com/reverieinc/Reverie-Language-API-SDK-Android/blob/main/README.md)
 
 
 Add the following code bases in module level `build.gradle`, so the library can easily access the credentials. 
